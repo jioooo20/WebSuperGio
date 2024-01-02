@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item Entry & Storage</title>
+    <style>
+      .titleitem {
+        text-align: center;
+        margin-top: 0%;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+      }
+      .input label,
+      .input input {
+        margin-bottom: 10px;
+      }
+      .input label {
+        width: 150px;
+        text-align: right;
+        margin-right: 10px;
+      }
+      .input input {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="titleitem">Item Entry & Storage</h1>
+    <div class="input">
+      <form action="" method="post">
+        <label for="item">Nama barang </label>
+        <input type="text" name="item" id="item" /><br />
+        <label for="supplier">Supplier </label>
+        <input type="text" name="supplier" id="supplier" /><br />
+        <label for="kategori">Kategori </label>
+        <input type="text" name="kategori" id="kategori" /><br />
+        <label for="harga">Harga </label>
+        <input type="text" name="harga" id="harga" /><br />
+        <label for="stok">Stok </label>
+        <input type="text" name="stok" id="stok" /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </form>
+    </div>
+  </body>
+</html>
